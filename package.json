@@ -1,0 +1,27 @@
+{
+  "name": "coffeelint-forbidden-regex",
+  "version": "0.0.1",
+  "description": "CoffeeLint rule that forbids specified regular expressions.",
+  "main": "index.js",
+  "keywords": [
+    "coffeelint",
+    "coffeelintrule",
+    "coffee-lint"
+  ],
+  "author": {
+    "name": "Wojciech Fr¹cz",
+    "email": "vojtek44@gmail.com"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/fracz/coffeelint-forbidden-regex",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fracz/coffeelint-forbidden-regex"
+  },
+  "peerDependencies": {
+    "coffeelint": ">=1.9"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.9.0"
+  }
+}
