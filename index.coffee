@@ -1,4 +1,4 @@
-module.exports = class ForbiddenRegex
+module.exports = class
   rule:
     name: 'forbidden_regex'
     level: 'error'
