@@ -1,6 +1,6 @@
 {
   "name": "coffeelint-forbidden-regex",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CoffeeLint rule that forbids specified regular expressions.",
   "main": "index.js",
   "keywords": [
@@ -19,9 +19,9 @@
     "url": "https://github.com/fracz/coffeelint-forbidden-regex"
   },
   "peerDependencies": {
-    "coffeelint": ">=1.9"
+    "coffeelint": "~1"
   },
   "devDependencies": {
-    "coffee-script": "~1.9.0"
+    "coffee-script": "~1.8.0"
   }
 }
