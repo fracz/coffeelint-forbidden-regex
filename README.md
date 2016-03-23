@@ -26,12 +26,28 @@ Add the following entry to your `coffeelint.json` file:
 Example
 -----------
 
-If you want to reject `console.log` or `console.err` calls, add it as forbidden regular expression for coffeelint:
+If you want to reject `alert()` calls, add it as forbidden regular expression for coffeelint:
 
     "forbidden_regex": {
         "module": "coffeelint-forbidden-regex",
         "level": "error",
         "regexList": [
-          "console\\.(log|err)"
+          "\\balert\\b"
         ]
     }
+
+`\\b` is the [word boundary](http://www.regular-expressions.info/wordboundaries.html) in regexps.
+
+Rejecting the `console.log` calls
+-----------
+
+Keep in mind that forbidding the `console` calls should be done with the `no_debugger` checker since CoffeeLint 1.10.0: 
+
+```
+"no_debugger": {
+  "level": "error",
+  "console": true
+}
+```
+
+You should use the `coffeelint-forbidden-regex` for more sophisticated purposes.
