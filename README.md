@@ -26,7 +26,7 @@ Add the following entry to your `coffeelint.json` file:
 Example
 -----------
 
-If you want to reject `cosole.log` or `console.err` calls, add it as forbidden regular expression for coffeelint:
+If you want to reject `console.log` or `console.err` calls, add it as forbidden regular expression for coffeelint:
 
     "forbidden_regex": {
         "module": "coffeelint-forbidden-regex",
