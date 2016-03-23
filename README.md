@@ -26,13 +26,13 @@ Add the following entry to your `coffeelint.json` file:
 Example
 -----------
 
-If you want to reject `alert()` calls, add it as forbidden regular expression for coffeelint:
+If you want to reject `alert('something')` or `alert 'something'` calls, add a forbidden regular expression for coffeelint:
 
     "forbidden_regex": {
         "module": "coffeelint-forbidden-regex",
         "level": "error",
         "regexList": [
-          "\\balert\\b"
+          "\\balert[\\s\\(]"
         ]
     }
 
