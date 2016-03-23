@@ -9,10 +9,10 @@
     "coffee-lint"
   ],
   "author": {
-    "name": "Wojciech Fr¹cz",
-    "email": "vojtek44@gmail.com"
+  "name"  : "Wojciech FrÄ…cz",
+  "email" : "vojtek44@gmail.com"
   },
-  "license": "ISC",
+  "license": "MIT",
   "homepage": "https://github.com/fracz/coffeelint-forbidden-regex",
   "repository": {
     "type": "git",
