@@ -1,6 +1,6 @@
 {
   "name": "coffeelint-forbidden-regex",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CoffeeLint rule that forbids specified regular expressions.",
   "main": "index.js",
   "keywords": [
