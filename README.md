@@ -51,3 +51,8 @@ Keep in mind that forbidding the `console` calls should be done with the `no_deb
 ```
 
 You should use the `coffeelint-forbidden-regex` for more sophisticated purposes.
+
+Also, keep in mind that
+-----------
+
+it can slow down your linting process noticeably.
